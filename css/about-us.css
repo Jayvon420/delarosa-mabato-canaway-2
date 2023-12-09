@@ -1,0 +1,331 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* global */
+body{
+    background-color: #CDDA19;
+}
+
+.font-krona{
+    font-family: 'Krona One', sans-serif;
+}
+
+.no-decoration{
+    text-decoration: none;
+} 
+
+.font-dela{
+
+    font-family: 'Dela Gothic One', cursive;
+}
+.color-black{
+    color: black;
+}
+/* global */
+
+
+/* =========== navigtaion bar start =========== */
+
+
+.nav-header{
+    position: sticky;
+    top: 0;
+}
+.nav-control{
+    display: flex;
+    padding: 1rem;
+    justify-content: space-evenly;
+    background-color: #CDDA19;
+}
+
+.main-logo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.nav-menu{
+    display: flex;
+    align-items: center;
+}
+.nav-menu a{
+    text-transform: uppercase;
+    padding: 1rem;
+}
+.nav-menu a:hover{
+    color: white;
+}
+
+.nav-icon i{
+    font-size: 1.5rem;
+    padding: 1rem;
+}
+
+/* =========== navigtaion bar end =========== */
+.font-popins{
+    font-family: 'Poppins', sans-serif;
+}
+.content-parent{
+    padding-top: 5rem;
+    padding-left: 5rem;
+    padding-right: 5rem;
+}
+.content-parent h1{
+    margin-bottom: 5rem;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+.jayvon-content{
+    margin-top: 5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 5rem;
+}
+
+.picture img{
+    width: 100%;
+    height: auto;
+    border: 5px solid white;
+    border-radius: 10px;
+}
+
+.description{
+    margin-left: 3rem;
+}
+.account a{
+    text-decoration: none;
+    color: black;
+    font-size: 2rem;
+    padding: 1rem;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.account{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* foter */
+
+.footer-control{
+    background-color: #CDDA19;
+}
+.footer{
+    border-top: 3px solid white;
+    margin-left: 3rem;
+    margin-right: 3rem;
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    background-color: #CDDA19;
+}
+
+.footer-icon{
+    padding-top: 1rem;
+}
+.icon{
+    padding-right: 2rem;
+    color: black;
+    text-decoration: none;
+}
+.footer-content{
+    flex-direction: column;
+    padding: 3rem;
+}
+
+.footer-images img{
+    width: 50px;
+    height: auto;
+}
+
+.pic-text{
+    display: flex;
+    white-space: nowrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.copyright h3{
+    margin-left: 5rem;
+    margin-right: 5rem;
+    border-top: 2px solid white ;
+    text-align: center;
+    padding: 1rem;
+    font-size: 15px;
+}
+
+/*  */
+
+
+
+
+
+.mobile-view{
+    display: none;
+    position: sticky;
+    top: 0;
+}
+/* toggle css */
+.logo a{
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+    
+}
+.nav{
+    background-color: #CDDA19;
+    display: flex;
+    padding: 5px 20px;
+    align-items: center;
+
+}
+
+.nav a{
+ color: black;
+}
+.menu a:hover{
+    color: white;
+}
+
+.logo{
+    flex: 1;
+    align-items: center;
+}
+
+.menu {
+    display: flex;
+    align-items: center;
+    list-style: none;
+}
+
+.menu li{
+    padding: 15px 10px;
+    font-size: 16px;
+}
+
+.toggle{
+    font-size: 30px;
+    display: none;
+
+}
+/* toggle css */
+/*=========================== Mobile Setup ===========================*/
+
+   @media(max-width: 767px){
+
+    
+    .nav-header{
+        display: none;
+    }
+
+
+    .footer-content h3{
+        margin-bottom: 1rem;
+    }
+
+    .footer-content{
+        padding: 1rem;
+        padding-top:1rem ;
+    }
+
+    .footer{
+        display: block;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        align-content: center;
+    }
+
+    .footer-icon i{
+        padding: 1rem;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+
+    .copyright{
+        display: block;
+    }
+    
+    .copyright h3{
+        font-size: 5px;
+    }
+
+    /* togle mobile view */
+
+    .mobile-view{
+        display: block;
+
+    }
+
+    .nav{
+        display: block;
+        position: sticky;
+        /* position: relative; */
+        padding: 15px 20px;
+    }
+    
+    .menu{
+        margin-top: 12px;
+        display: none;
+    }
+
+    .menu.active, .toggle{
+        display: block;
+    }
+
+    .toggle{
+        position: absolute;
+        top: 15px;
+        right: 20px;
+    }
+
+    .content-parent{
+        margin: 0;
+        padding: 0;
+    }
+
+    .content-parent{
+        margin-top: 2rem;
+        font-size: 15px;
+        text-transform: uppercase;
+    }
+
+    .picture{
+        padding-left: 2rem;
+        padding-right: 2rem;
+    }
+    .description{
+        margin: 0;
+        margin-left: 2rem;
+        margin-right: 2rem;
+        text-align: center;
+    }
+    .jayvon-content{
+        display: block;
+    }
+
+    .description h1{
+        font-size: 20px;
+        text-wrap: nowrap;
+        text-align: center;
+        margin: 0;
+        margin-top: 1rem;
+        margin-bottom: 1rem;
+    }
+    .description p{
+        font-size: 10px;
+        padding: .5rem 2rem;
+    }
+
+   }
+
+
+   
+

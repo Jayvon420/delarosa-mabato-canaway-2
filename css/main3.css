@@ -1,0 +1,335 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* fonts */
+
+.font-krona{
+    font-family: 'Krona One', sans-serif;
+}
+
+.font-dela{
+    font-family: 'Dela Gothic One', sans-serif;
+}
+
+.font-pop{
+    font-family: 'Poppins', sans-serif;
+}
+
+
+
+.no-decoration{
+    text-decoration: none;
+}
+
+.color-white{
+    color: white;
+}
+.color-black{
+    color: black;
+}
+
+.bold{
+    font-weight: bolder;
+}
+.mx-1{
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+/* fonts */
+
+
+/* navigation bar */
+
+
+
+.nav-header{
+    position: sticky;
+    top: 0;
+}
+.nav-control{
+    display: flex;
+    padding: 1rem;
+    justify-content: space-evenly;
+    background-color: #CDDA19;
+}
+
+.main-logo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.nav-menu{
+    display: flex;
+    align-items: center;
+}
+.nav-menu a{
+    text-transform: uppercase;
+    padding-left: 1rem;
+}
+.nav-menu a:hover{
+    color: white;
+}
+
+.nav-icon i{
+    font-size: 1.5rem;
+    padding: 1rem;
+}
+
+.profile{
+    width: 40px;
+    height: auto;
+    border-radius: 50%;
+}
+/* navigation bar */
+
+.form-container{
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #CDDA19;
+}
+
+.form-container form{
+    padding:20px;
+    border-radius: 5px;
+    box-shadow: 0 5px 10px rgba(0,0,0,.1);
+    background: #fff;
+    text-align: center;
+    width: 400px;
+}
+
+.form-container form h3{
+    font-size: 30px;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+    color:#333;
+    font-family: 'Poppins', sans-serif;
+ }
+
+.form-container form input,
+.form-container form select{
+   width: 100%;
+   padding:10px 15px;
+   font-size: 17px;
+   margin:8px 0;
+   background: #eee;
+   border-radius: 5px;
+   font-family: 'Poppins', sans-serif;
+}
+
+.form-container form .form-btn{
+    background: #CDDA19;
+    color:black;
+    text-transform: capitalize;
+    font-size: 20px;
+    cursor: pointer;
+    font-family: 'Poppins', sans-serif;
+ }
+ .form-container form .form-btn:hover{
+    background: black;
+    color:#fff;
+ }
+
+ .form-container form p{
+    margin-top: 10px;
+    font-size: 15px;
+    color:#333;
+    font-family: 'Poppins', sans-serif;
+ }
+ .form-container form p a{
+    color:#CDDA19;
+    text-decoration: none;
+ }
+ 
+ .form-container form .error-msg{
+    font-family: 'Poppins', sans-serif;
+    margin:10px 0;
+    display: block;
+    background: crimson;
+    color:#fff;
+    border-radius: 5px;
+    font-size: 20px;
+    padding:10px;
+ }
+
+ /* box */
+
+.box-layout{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+    width: 320px;
+    height: 600px;
+    background-color: black;
+    margin-left: 50px;
+    border-radius: 45px;
+}
+
+.box-yellow{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+    margin-top: 1rem;
+    margin-left: 2rem;
+    margin-right: 2rem;
+    width: 280px;
+    height: 490px;
+    border-radius: 10px;
+    background-color: #CDDA19;
+
+}
+
+.box-yellow img{
+    width: 200px;
+    height: auto;
+}
+
+.box-yellow h3{
+    margin-top: 1rem;
+    font-size: 20px;
+}
+
+.box-yellow button{
+    margin-top: 1rem;
+    background-color: black;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    padding-top: .5rem;
+    padding-bottom: .5rem;
+    border-radius: 10px;
+    color: white;
+}
+
+.white-cricle{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    border-radius: 50%;
+    margin-top: 1rem;
+    width: 50px;
+    height: 50px;
+    background-color: white;
+}
+.black-circle{
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    background-color: black;
+}
+/* end of content-1 */
+
+/* project css */
+
+.main-content-parent-1{
+    margin-left: 5rem;
+    margin-right: 5rem;
+    margin-top: 5rem;
+}
+
+.tittle{
+    font-size: 30px;
+    margin-bottom: 5rem;
+}
+
+.sub-content-1{
+    display: flex;
+    /* align-items: center; */
+}
+
+.picture img{
+    width: 100%;
+    height: auto;
+    border: 2px solid #CDDA19;
+    border-radius: 10px;
+}
+
+.text-right{
+    padding-left: 2rem;
+}
+
+.sub-tittle{
+    font-size: 20px;
+    margin-bottom: 1rem;
+}
+
+.progress-fund progress{
+    padding: 2rem;
+    width: 100%;
+    accent-color:#CDDA19;
+}
+
+.prog{
+    display: flex;
+    justify-content: space-between;
+    padding: .5rem;
+}
+
+.fund-button button{
+    background-color: black ;
+    color: white;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    padding-top: .5rem;
+    padding-bottom: .5rem;
+    border-radius: 10px;
+}
+
+.main-content-parent-2{
+    margin-left: 5rem;
+    margin-right: 5rem;
+}
+
+.border{
+    margin-top: 3rem;
+    margin-bottom: 5rem;
+    border: 1px solid black;
+}
+
+
+.mobile-view{
+    display: none;
+    position: sticky;
+    top: 0;
+}
+/* toggle css */
+.logo a{
+    text-decoration: none;
+    color: black;
+    font-size: 20px;  
+}
+.nav{
+    background-color: #CDDA19;
+    display: flex;
+    padding: 5px 20px;
+    align-items: center;
+
+}
+
+.nav a{
+ color: black;
+}
+.menu a:hover{
+    color: white;
+}
+
+.menu {
+    display: flex;
+    align-items: center;
+    list-style: none;
+}
+
+.menu li{
+    padding: 15px 10px;
+    font-size: 16px;
+}
+
+/* end project css */
